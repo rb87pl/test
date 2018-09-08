@@ -9,12 +9,18 @@ public class Runner {
         int number = scanner.nextInt();
         System.out.println();
 
-        if( number/number == 0 && number / 1 ==0){
-            System.out.println("Liczba jest pierwsza.");
-        } else {
-            System.out.println("Liczba nie jest liczba pierwsza!");
+
+        for (int i=2; i <= number; i++) {
+            double y = Math.sqrt(number);
+
+            if ( number%y == 0 ) {
+                System.out.println("NIE");
+                break;
+            } else {
+                System.out.println("TAK");
+                break;
+            }
+
         }
-
-
     }
 }
