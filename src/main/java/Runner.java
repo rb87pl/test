@@ -5,7 +5,7 @@ public class Runner {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Wprowadz liczbę: ");
+        System.out.println("Wprowadz liczbę pierwszą: ");
         int number = scanner.nextInt();
         System.out.println();
 
