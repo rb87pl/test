@@ -9,7 +9,7 @@ public class Runner {
         int number = scanner.nextInt();
         System.out.println();
 
-        if( number%number == 0 ){
+        if( number/number == 0 && number / 1 ==0){
             System.out.println("Liczba jest pierwsza.");
         } else {
             System.out.println("Liczba nie jest liczba pierwsza!");
